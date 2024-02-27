@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+}
+body{
+    background-image: url(https://wallpapercosmos.com/w/full/2/e/f/1379187-3840x2160-desktop-4k-scenery-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.list{
+    height: 100px;
+}
+
+.list #logo{
+    float:left;
+    display: flex;
+    margin-left: 65px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    border-radius: 50%;
+}
+
+ul{
+    float: left;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 64px;
+    font-size: 28px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: cyan;
+    font-size: 30px;
+}
+
+.about{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.about h1{
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.about .register{
+    background: rgb(68, 19, 227);
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.about .register a{
+    text-decoration: none;
+    color: rgb(67, 255, 5);
+    transition: 0.3s ease-in-out;
+}
+
+.register:hover{
+    background-color:rgb(212, 50, 21);
+   
+}
+
+.about #top{
+    color: red;
+}
+
+.about #bottom{
+    color: yellow;
+    font-size: 70px;
+}
+
+p{
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cyan;
+    text-align: center;
+    background-color: black;
+    margin: 0px 300px 0px 300px;
+    padding: 10px;
+    border-radius: 20px;
+}

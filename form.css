@@ -1,0 +1,61 @@
+*{
+    margin: auto;
+}
+
+body{
+    background: url(https://wallpapercosmos.com/w/full/8/1/7/1379189-3840x2160-desktop-4k-scenery-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    width: 450px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    color: red;
+}
+
+h3{
+    color: yellow;
+    font-family: "Poppins", sans-serif;
+}
+
+.register{
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+form #register{
+    margin: 40px;
+}
+
+input#name{
+    width: 260px;
+    border: 4px solid white;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+input#submit{
+    width: 300px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 560;
+    border-radius: 8px;
+    background-color: cyan;
+    color: green;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
